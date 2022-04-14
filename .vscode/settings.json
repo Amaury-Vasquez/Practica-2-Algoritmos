@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "busqueda_fibonacci.h": "c",
+    "busqueda_lineal.h": "c"
+  }
+}
