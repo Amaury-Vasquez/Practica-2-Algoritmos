@@ -1,10 +1,10 @@
 import matplotlib.pyplot as plot
 
-x = ['Lineal', 'Binaria', 'ABB', 'Fibonacci', 'Exponencial']
-y = [0, 0.2, 0.4, 0.6, 0.8, 1]
+x = ['ABB', 'Binaria', 'Exponencial', 'Fibonacci', 'Lineal']
+y = [0.000396, 0.000394, 0.000359, 0.000395, 0.010522]
 
-plot.bar(x, y)
+plot.barh(x, y, color = "#30AADD")
 plot.ylabel('Algoritmos')
-plot.xlabel('Tiempo empleado')
+plot.xlabel('Tiempo empleado (n = 10000000)')
 plot.title('Comparativa algoritmos de búsqueda')
 plot.show()
